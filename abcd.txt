@@ -1,0 +1,59 @@
+create database school;
+use school;
+show databases;
+
+create table student
+(
+id int(50) not null primary key Auto_Increment,
+name char (20) not null unique,
+city char (50) default "Palampur",
+contact varchar (10) not null unique,
+Email varchar (250) not null unique,
+pin int (6) not null unique
+);
+ Insert into student(Name,Contact ,Email, Pin)
+ values("Ankush" , 7807527161 , "ankush@gmail.com" , 176081);
+ 
+ Insert into student(name,contact, Email , pin)
+ values("Akhil", 1234567890 , "akhil@gmail.com" , 176082);
+ 
+  Insert into student(name,contact, Email , pin)
+ values("Shekhar", 2134567890 , "shekhar@gmail.com" , 176083);
+ 
+  Insert into student(name,contact, Email , pin)
+ values("Rishav", 1234567880 , "chotu@gmail.com" , 176086);
+ 
+  Insert into student(name,contact, Email , pin)
+ values("Motuu", 1234547890 , "motu@gmail.com" , 176084);
+ 
+select*from student;
+
+
+
+
+create table Teacher
+(
+id int(50) not null primary key Auto_Increment,
+name char (20) not null unique,
+city char (50) default "Kangra",
+contact varchar (10) not null unique,
+Email varchar (250) not null unique,
+pin int (6) not null unique
+);
+
+Insert into Teacher(Name, Contact , Email , Pin)
+values("Ruchi" , 0987654321 , "ruchi@gmail.com" , 123456);
+
+Insert into Teacher(Name, Contact , Email , Pin)
+values("Meena" , 2345678901 , "meena@gmail.com" , 123457);
+
+Insert into Teacher(Name, Contact , Email , Pin)
+values("Rekha" , 0987654721 , "rekha@gmail.com" , 123455);
+
+Insert into Teacher(Name, Contact , Email , Pin)
+values("Shreya" , 0987654320 , "shreya@gmail.com" , 123458);
+
+Insert into Teacher(Name, Contact , Email , Pin)
+values("Priya" , 0987654341 , "priya@gmail.com" , 125456);
+
+select*from Teacher;

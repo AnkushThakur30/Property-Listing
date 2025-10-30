@@ -1,0 +1,240 @@
+.ibar
+{
+width: 100%;
+height: 70px;
+background-color: purple;
+position: fixed;
+z-index: 1;
+}
+
+body
+{
+margin: 0px;
+}
+
+.ph
+{
+position: absolute;
+top: 20px;
+left: 30px;
+font-size: 25px;
+color:#adc867;
+}
+.contact
+{
+position: absolute;
+top: 25px;
+left: 64px;
+font-size: 15px;
+color: white;
+font-family: Montserrat; 
+}
+
+.loc
+{
+position: absolute;
+top: 20px;
+left: 215px;
+font-size: 25px;
+color:#adc867;
+}
+.loc1
+{
+position: absolute;
+top: 25px;
+left: 242px;
+font-size: 15px;
+color: white;
+font-family: Montserrat;
+}
+
+.mail
+{
+position: absolute;
+top: 20px;
+left: 515px;
+font-size: 25px;
+color:#adc867;
+}
+.mail1
+{
+position: absolute;
+top: 25px;
+left: 552px;
+font-size: 15px;
+color: white;
+font-family: Montserrat;
+}
+
+.icons
+{
+position: absolute;
+right: 260px;
+top: 0px;
+width:300px;
+height: 70px;
+}
+
+.wa
+{
+color: white;
+position: absolute;
+font-size:25px;
+background:#adc867;
+padding: 12px;
+border-radius: 150px;
+cursor: pointer;
+left: 15px;
+top: 10px;
+}
+
+.ig
+{
+color: white;
+position: absolute;
+font-size:25px;
+background:#adc867;
+padding: 12px;
+border-radius: 150px;
+cursor: pointer;
+left: 70px;
+top: 10px;	
+}
+
+.fb
+{
+color: white;
+position: absolute;
+font-size:25px;
+background:#adc867;
+padding: 12px;
+border-radius: 150px;
+cursor: pointer;
+left: 125px;
+top: 10px;	
+}
+
+.tr
+{
+color: white;
+position: absolute;
+font-size:25px;
+background:#adc867;
+padding: 12px;
+border-radius: 150px;
+cursor: pointer;
+left: 183px;
+top: 10px;	
+}
+
+.yt
+{
+color: white;
+position: absolute;
+font-size:25px;
+background:#adc867;
+padding: 12px;
+border-radius: 150px;
+cursor: pointer;
+left: 238px;
+top: 10px;	
+}
+
+.l
+{
+color: white;
+font-size: 20px;
+position: absolute;
+font-family:Montserrat;
+left: 1300px;
+top: 24px;
+}
+
+.slash
+{
+color: white;
+font-size: 20px;
+position: absolute;
+left: 1375px;
+top: 25px;	
+}
+
+.r
+{
+color: white;
+font-size: 20px;
+position: absolute;
+font-family:Montserrat;
+left: 1390px;
+top: 24px;	
+}
+
+.navbar
+{
+height: 60px;
+position: fixed;
+width: 100%;
+z-index: 1;
+background-color: white;
+box-shadow: 0px 2px 8px gray;
+top: 70px;
+}
+
+.navbar ul
+{
+list-style-type: none;
+margin:0px;
+}
+
+.navbar li a
+{
+float: left;
+margin-left: 95px;
+font-family: Montserrat;
+font-size: 20px;
+text-decoration: none;
+margin-top: 0px;
+padding: 18px;
+margin-right: -50px;
+}
+
+.navbar li a:hover
+{
+background: #adc867;
+color: black;
+}
+
+.p
+{	
+float: left;
+font-size: 30px;
+font-family: Montserrat;
+margin-top: 12px;
+margin-bottom:11px;
+margin-right: 106px;
+color: black;
+}
+
+.p1
+{	
+float: left;
+font-size: 30px;
+font-family: Montserrat;
+margin-top: 12px;
+margin-bottom:11px;
+margin-left: -105px;
+color: blue;
+background-color: white;
+}
+
+.p2
+{
+float: right;
+font-family: Montserrat;
+color: white;
+background-color: #adc867;
+margin-top: 0px;
+font-size: 18px;
+margin-right: 45px;
+padding: 19px;
+}
